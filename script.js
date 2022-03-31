@@ -56,6 +56,7 @@ const calculate = () => {
       break;
     case "-":
       result = parseFloat(prevNumber) - parseFloat(currentNumber);
+      break;
     case "*":
       result = parseFloat(prevNumber) * parseFloat(currentNumber);
       break;
